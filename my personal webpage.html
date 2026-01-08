@@ -1,0 +1,173 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Miguel Gabriel S. Ibones - Personal Space</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('gym.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: rgba(255, 215, 0, 0.85);
+            border: 5px solid #4a90e2;
+            border-radius: 10px;
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .section {
+            background-color: #fff;
+            border: 3px solid #8bc34a;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .section:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            }
+
+            .section h2 {
+                font-size: 1em;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-bottom: 15px;
+                color: #333;
+            }
+
+        .section-content {
+            color: #555;
+            line-height: 1.6;
+        }
+
+            .section-content p {
+                margin-bottom: 10px;
+            }
+
+            .section-content ul {
+                list-style-position: inside;
+                margin-left: 10px;
+            }
+
+                .section-content ul li {
+                    margin-bottom: 8px;
+                }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+            .contact-info a {
+                color: #4a90e2;
+                text-decoration: none;
+            }
+
+                .contact-info a:hover {
+                    text-decoration: underline;
+                }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+            .gallery-grid img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 5px;
+                aspect-ratio: 1;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Personal Space</h1>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <div class="section-content">
+                <p><strong>Name:</strong> Tom Miguel Gabriel S. Ibones</p>
+                <p>
+                    Hello! I'm Tom Miguel Gabriel (尹米格), welcome to my personal website.
+                    I'm passionate about learning, creating, and connecting with others. GYM and All forms of Art.
+                    This space is a reflection of who I am and what I love to do.
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>My Photo Gallery</h2>
+            <div class="section-content">
+                <p>A collection of moments and memories that matter to me.</p>
+                <div class="gallery-grid">
+                    <img src="serena.jpg" alt="Photo 1">
+                    <img src="dragonslayer.jpg" alt="Photo 2">
+                    <img src="kaimere.jpg" alt="Photo 3">
+                    <img src="tf2.jpg" alt="Photo 4">
+                    <img src="mc.jpg" alt="Photo 5">
+                    <img src="tekken.jpg" alt="Photo 6">
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>My Interests and Hobbies</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Technology and Web Development</li>
+                    <li>Photography and Visual Arts</li>
+                    <li>Reading and Continuous Learning</li>
+                    <li>Music and Creative Expression</li>
+                    <li>Traveling and Exploring New Places</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contact Me</h2>
+            <div class="section-content">
+                <div class="contact-info">
+                    <p>Feel free to reach out to me through any of these channels:</p>
+                    <p>📧 Email: <a href="mailto:s24101326@stu.edu.tw">s24101326@stu.edu.tw</a></p>
+                    <p>📘 Facebook: <a href="#" target="_blank">Tom Miguel Gabriel Ibones</a></p>
+                    <p>💬 Discord: <a href="#" target="_blank">@tomibones</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
